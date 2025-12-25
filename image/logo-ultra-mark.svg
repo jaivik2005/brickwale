@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 200 200">
+  <!-- Ultra-minimal circular emblem inspired by bricks -->
+  <defs>
+    <style>
+      .brick{fill:#B33A2A}
+      .charcoal{fill:#222428}
+      .white{fill:#ffffff}
+    </style>
+  </defs>
+  <rect width="200" height="200" rx="36" fill="#ffffff"/>
+  <g transform="translate(0,0)">
+    <circle cx="100" cy="100" r="78" fill="#B33A2A" stroke="#222428" stroke-width="6"/>
+    <!-- mortar / brick pattern: simple geometric blocks -->
+    <g transform="translate(52,64)">
+      <rect x="0" y="0" width="28" height="18" rx="2" class="white" opacity="0.95" />
+      <rect x="34" y="0" width="28" height="18" rx="2" class="white" opacity="0.95" />
+      <rect x="68" y="0" width="28" height="18" rx="2" class="white" opacity="0.95" />
+      <rect x="-10" y="22" width="34" height="18" rx="2" class="white" opacity="0.95" />
+      <rect x="24" y="22" width="34" height="18" rx="2" class="white" opacity="0.95" />
+      <rect x="58" y="22" width="34" height="18" rx="2" class="white" opacity="0.95" />
+    </g>
+    <!-- subtle inner ring for premium feel -->
+    <circle cx="100" cy="100" r="70" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="6"/>
+  </g>
+</svg>

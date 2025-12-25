@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 200 200">
+  <!-- Brutalist construction logo - mark -->
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .charcoal { fill: #1a1a1a; }
+      .brick-red { fill: #C41E3A; }
+    </style>
+  </defs>
+  <!-- white bg -->
+  <rect width="200" height="200" class="bg"/>
+  <!-- bold geometric brick stack -->
+  <g transform="translate(40, 50)">
+    <!-- large base brick block -->
+    <rect x="0" y="60" width="50" height="35" class="charcoal" stroke="#1a1a1a" stroke-width="2"/>
+    <rect x="55" y="60" width="50" height="35" class="brick-red" stroke="#1a1a1a" stroke-width="2"/>
+    <!-- middle row offset -->
+    <rect x="0" y="30" width="50" height="30" class="brick-red" stroke="#1a1a1a" stroke-width="2"/>
+    <rect x="55" y="30" width="50" height="30" class="charcoal" stroke="#1a1a1a" stroke-width="2"/>
+    <!-- top row -->
+    <rect x="0" y="0" width="40" height="28" class="charcoal" stroke="#1a1a1a" stroke-width="2"/>
+    <rect x="45" y="0" width="40" height="28" class="brick-red" stroke="#1a1a1a" stroke-width="2"/>
+    <!-- accent vertical line (minimal mortar) -->
+    <line x1="27" y1="0" x2="27" y2="95" stroke="#ffffff" stroke-width="2" opacity="0.4"/>
+    <line x1="82" y1="0" x2="82" y2="95" stroke="#ffffff" stroke-width="2" opacity="0.4"/>
+  </g>
+</svg>

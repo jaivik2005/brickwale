@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .charcoal { fill: #1a1a1a; }
+      .brick-red { fill: #C41E3A; }
+      .wordmark { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; font-weight: 900; font-size: 64px; fill: #1a1a1a; letter-spacing: -2px; }
+      .subtitle { font-family: 'Inter', Arial, sans-serif; font-weight: 600; font-size: 16px; fill: #666; letter-spacing: 2px; }
+    </style>
+  </defs>
+  <!-- white bg -->
+  <rect width="1000" height="200" class="bg"/>
+  <!-- brutalist mark on left -->
+  <g transform="translate(24, 40)">
+    <!-- large base brick block -->
+    <rect x="0" y="50" width="40" height="28" class="charcoal" stroke="#1a1a1a" stroke-width="1.5"/>
+    <rect x="45" y="50" width="40" height="28" class="brick-red" stroke="#1a1a1a" stroke-width="1.5"/>
+    <!-- middle row offset -->
+    <rect x="0" y="24" width="40" height="24" class="brick-red" stroke="#1a1a1a" stroke-width="1.5"/>
+    <rect x="45" y="24" width="40" height="24" class="charcoal" stroke="#1a1a1a" stroke-width="1.5"/>
+    <!-- top row -->
+    <rect x="0" y="0" width="32" height="22" class="charcoal" stroke="#1a1a1a" stroke-width="1.5"/>
+    <rect x="38" y="0" width="32" height="22" class="brick-red" stroke="#1a1a1a" stroke-width="1.5"/>
+  </g>
+  <!-- wordmark -->
+  <g transform="translate(180, 55)">
+    <text class="wordmark" x="0" y="65">BRICKS WALE</text>
+    <text class="subtitle" x="0" y="105">CONSTRUCTION EXCELLENCE</text>
+  </g>
+</svg>

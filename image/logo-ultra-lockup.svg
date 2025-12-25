@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <style>
+      .brick{fill:#B33A2A}
+      .charcoal{fill:#222428}
+      .white{fill:#ffffff}
+      .word{font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif; font-weight:800; font-size:44px; letter-spacing:1px}
+      .tag{font-family: 'Inter', Arial, sans-serif; font-size:14px; fill:#6b7280}
+    </style>
+  </defs>
+  <!-- emblem on left -->
+  <g transform="translate(20,0)">
+    <rect width="160" height="160" rx="28" fill="#ffffff"/>
+    <circle cx="100" cy="80" r="64" fill="#B33A2A" stroke="#222428" stroke-width="4"/>
+    <g transform="translate(52,44)">
+      <rect x="0" y="0" width="22" height="14" rx="2" fill="#fff" />
+      <rect x="28" y="0" width="22" height="14" rx="2" fill="#fff" />
+      <rect x="56" y="0" width="22" height="14" rx="2" fill="#fff" />
+      <rect x="-8" y="18" width="28" height="14" rx="2" fill="#fff" />
+      <rect x="20" y="18" width="28" height="14" rx="2" fill="#fff" />
+      <rect x="48" y="18" width="28" height="14" rx="2" fill="#fff" />
+    </g>
+  </g>
+  <!-- wordmark to the right -->
+  <g transform="translate(220,64)">
+    <text class="word" x="0" y="44" fill="#222428">BRICKS</text>
+    <text class="word" x="210" y="44" fill="#B33A2A">WALE</text>
+    <text class="tag" x="0" y="74">Ultra Luxury Construction</text>
+  </g>
+</svg>
